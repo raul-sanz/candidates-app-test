@@ -1,6 +1,9 @@
-# Quasar App (candidates_app)
+# App (candidates_app)
 
-A Quasar Framework app
+#Demo
+https://loving-swirles-1b12d4.netlify.com
+
+A Quasar Framework and vue app
 
 ## Install the dependencies
 ```bash
