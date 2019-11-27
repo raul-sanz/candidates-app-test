@@ -26,7 +26,7 @@
           <td class="text-center">
             <q-btn class="q-mr-sm" size="sm" round color="primary" icon="fas fa-pencil-alt" @click="goTo('edit',cd)" />
             <q-btn class="q-mr-sm" size="sm" round color="secondary" icon="far fa-eye" @click="goTo('view',cd)"/>
-            <q-btn size="sm" round color="red" icon="fas fa-trash" @click="remove(cd.id,index,cd.laboral_references.length)"/>
+            <q-btn size="sm" round color="red" icon="fas fa-trash" @click="remove(cd.id,index,cd.laboral_references? cd.laboral_references.length:0)"/>
           </td>
         </tr>
       </tbody>
